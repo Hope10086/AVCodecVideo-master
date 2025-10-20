@@ -1,2 +1,5 @@
 /entry/.cxx
 /entry/build
+/entry/oh_modules
+/.hvigor/cache
+/.hvigor
