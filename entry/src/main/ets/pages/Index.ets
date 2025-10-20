@@ -25,7 +25,10 @@ import DateTimeUtil from '../common/utils/DateTimeUtils';
 import { CommonConstants as Const } from '../common/CommonConstants';
 import { CameraDataModel } from '../model/CameraDateModel';
 import { videoProfileCheck } from '../common/utils/CameraCheck';
-import tester from  'libadder.so'
+import  tester from 'libgsdecoder.so';
+console.log('adder module:', tester);
+console.log('player module:', player);
+console.log('recorder module:', recorder);
 
 const TAG: string = Const.INDEX_TAG;
 const DATETIME: DateTimeUtil = new DateTimeUtil();
@@ -313,7 +316,7 @@ struct Player {
 
         Button($r('app.string.gsdecode'))
           .onClick((event: ClickEvent) => {
-            hilog.info(0x000, 'testTag', 'Test NAPI 2 + 3 = %{public}d', tester.addNative(2,3));
+            hilog.info(0x000, 'testTag', 'SHN - Test NAPI 2 + 3 = %{public}d', tester.addNative(2,3));
         })
           .size({
             width: '100%',

@@ -14,7 +14,7 @@
  */
 
 {
-  "name": "libadder.so",
+  "name": "libgsdecoder.so",
   "types": "./index.d.ts",
   "version": "1.0.0",
   "decription": "Player interface."

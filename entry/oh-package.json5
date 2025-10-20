@@ -23,6 +23,6 @@
   "dependencies": {
     "libplayer.so": "file:./src/main/cpp/types/libplayer",
     "librecorder.so": "file:./src/main/cpp/types/librecorder",
-    "libadder.so": "file:./src/main/cpp/types/libadder",
+    "libadder.so": "file:./src/main/cpp/types/libgsdecoder",
   }
 }
