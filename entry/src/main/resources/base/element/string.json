@@ -59,6 +59,10 @@
     {
       "name": "saveButtonTitle",
       "value": "Confirm the video storage location"
+    },
+    {
+      "name": "gsdecode",
+      "value": "GsDecode"
     }
   ]
 }

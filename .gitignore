@@ -11,3 +11,5 @@ oh_modules/.ohpm/lock.json5
 .clang-tidy
 .clangd
 build-profile.json5
+/entry/.preview
+build-profile.json5

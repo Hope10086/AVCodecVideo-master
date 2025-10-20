@@ -25,6 +25,7 @@ import DateTimeUtil from '../common/utils/DateTimeUtils';
 import { CommonConstants as Const } from '../common/CommonConstants';
 import { CameraDataModel } from '../model/CameraDateModel';
 import { videoProfileCheck } from '../common/utils/CameraCheck';
+import tester from  'libadder.so'
 
 const TAG: string = Const.INDEX_TAG;
 const DATETIME: DateTimeUtil = new DateTimeUtil();
@@ -308,6 +309,18 @@ struct Player {
             height: $r('app.float.index_button_height')
           })
           .enabled(this.buttonEnabled)
+          .margin({bottom: $r('app.float.button_margin_bottom')})
+
+        Button($r('app.string.gsdecode'))
+          .onClick((event: ClickEvent) => {
+            hilog.info(0x000, 'testTag', 'Test NAPI 2 + 3 = %{public}d', tester.addNative(2,3));
+        })
+          .size({
+            width: '100%',
+            height: $r('app.float.index_button_height')
+          })
+          .enabled(this.buttonEnabled)
+          .margin({bottom: $r('app.float.button_margin_bottom')})
       }
       .alignRules({
         'bottom': { 'anchor': '__container__', 'align': VerticalAlign.Bottom },

@@ -12,6 +12,7 @@ include_directories(${NATIVERENDER_ROOT_PATH}
                     ${NATIVERENDER_ROOT_PATH}/render/include
                     ${NATIVERENDER_ROOT_PATH}/sample/player
                     ${NATIVERENDER_ROOT_PATH}/sample/recorder
+                    ${NATIVERENDER_ROOT_PATH}/sample/adder
 )
 
 set(BASE_LIBRARY
@@ -38,6 +39,8 @@ add_library(recorder SHARED sample/recorder/RecorderNative.cpp
                             capbilities/AudioEncoder.cpp
                             common/SampleCallback.cpp
 )
+add_library(adder SHARED    sample/adder/adder.cpp)
 
 target_link_libraries(player PUBLIC ${BASE_LIBRARY})
 target_link_libraries(recorder PUBLIC ${BASE_LIBRARY})
+target_link_libraries(adder PUBLIC ${BASE_LIBRARY})
