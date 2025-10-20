@@ -3,3 +3,11 @@
 /entry/oh_modules
 /.hvigor/cache
 /.hvigor
+/.idea
+build-profile.json5
+build-profile.json5
+entry/oh-package-lock.json5
+oh_modules/.ohpm/lock.json5
+.clang-tidy
+.clangd
+build-profile.json5
