@@ -13,3 +13,4 @@ oh_modules/.ohpm/lock.json5
 build-profile.json5
 /entry/.preview
 build-profile.json5
+/entry/src/main/resources/rawfile
