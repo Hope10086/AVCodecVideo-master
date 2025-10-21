@@ -1,4 +1,0 @@
-$6123a491-7642-48e2-af3d-cd8e799cb9b0²·0knowledge_repo ÿÿÿÿÿÿÿÿÿ*string08Zdefault-	file_name ÿÿÿÿÿÿÿÿÿ*string08Zdefault-	file_path ÿÿÿÿÿÿÿÿÿ*string08Zdefault-	chunk_uid ÿÿÿÿÿÿÿÿÿ*string08ZdefaultFchunk_embedding ÿÿÿÿÿÿÿÿÿ*fixed_size_list:float:76808Zdefault.
-chunk_text ÿÿÿÿÿÿÿÿÿ*string08Zdefault2chunk_metadata ÿÿÿÿÿÿÿÿÿ*string08Zdefault"'
-lance.auto_cleanup.older_than14days"!
-lance.auto_cleanup.interval20
